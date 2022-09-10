@@ -76,11 +76,11 @@ static const char col_gray3[] = "#bbbbbb";
 static const char col_gray4[] = "#eeeeee";
 static char col_cyan[] = "#005577";*/
 
-static const char col_gray1[] = "#F8F8F8";
-static const char col_gray2[] = "#888580";
-static const char col_gray3[] = "#1C1C1C";
-static const char col_gray4[] = "#1C1C1C";
-static const char col_cyan[] = "#D4D0C8";
+static const char col_gray1[] = "#1C1C1C";
+static const char col_gray2[] = "#1C1C1C";
+static const char col_gray3[] = "#F8F8F8";
+static const char col_gray4[] = "#F8F8F8";
+static const char col_cyan[] = "#1C1C1C";
 /*col_cyan = ";*/
 /* bar opacity
  * 0xff is no transparency.
@@ -192,7 +192,7 @@ static const char *emacs[] = {"emacs", NULL};
 //static const char *termcmd[] = {"alacritty", "-e", "zsh", NULL};
 /* An alternative way to launch st along with the fish shell */
 //static const char *termcmd[]     = { "wezterm", "-e" "zsh", NULL };
-static const char *termcmd[]     = { "wezterm" };
+static const char *termcmd[]     = { "wezterm-gui" };
 static const char *tabtermcmd[] = {"tabbed", "-r", "2", "st",
                                    "-w",     "''", NULL};
 void gapm(int) {
